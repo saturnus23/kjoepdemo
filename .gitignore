@@ -1,0 +1,19 @@
+##################
+# database output
+*.csv
+DB content.txt
+
+# database backups
+dump*
+
+##################
+# plaatjes
+*.png
+
+##################
+# gevoelige informatie
+dbcredentials.php
+
+##################
+# backup directories
+0*

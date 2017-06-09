@@ -1,0 +1,81 @@
+001 DONE - 	Titel was nu hardcoded, komt nu uit title-element
+002 DONE - 	Inloggen 
+						tooltipteksten nu flexibel
+						Users opgenomen in database
+						Session gestart
+003 DONE -	Bootstrap in header en index.php
+						Footer met copyright
+						Stijl veranderd in PHP in and out
+004 DONE -	Dashboard maken
+						gemarkeerde code uit header hiernaartoe verplaatsen DONE
+						Navigatie met 
+						- "Ingelogd als xxx" DONE
+						- uitloggen DONE
+						- dan terug naar index.php DONE
+005 DONE -	Tonen: rollen en scholen DONE
+006 DONE - Bij registratie kiezen voor school en rol DONE
+					 Bij registratie, vóór header naar dashboard, database vullen DONE
+					 Op Dashboard eleganter tonen DONE
+007 DONE - Cleanup: Database access partly in functions
+					 Cleanup: New Session after login
+008 DONE - Profiel
+009 DONE - Cleanup; DB backup
+010 DONE - Maintenance Courses
+
+
+011 TODO: compose portfolio
+
+
+015 Dashboard
+		- All
+			menuoptie lespakketten?
+			showcase courses
+		- Docent: mijn lespakketten, DONE
+							show new DONE
+							show packages met Edit DONE
+							mijn leerlingen DONE
+		- Leerling
+		- Staflid
+		- Ouder
+		- Mentor
+
+		Oplossing:	NIET gebruik maken van class="container" (alleen boven row)
+								WEL zonodig overal width="auto"
+		
+Testen dat de profiel pagina geen wijzig button laat zien als het om iemand ánders zijn profiel gaat
+		
+100 Todo - Overleggen hoe de school te bepalen (nu nog alles Zweinstein)
+
+200 Tonen namen met escape sequences: opletten
+205 Alle GETs omvormen naar POSTs
+210 Optimaliseren queries
+215 Sessie laten verlopen, hoe ging dat ook al weer?
+220 Als je IN een single line editveld gaat staan, moet het hele veld geselecteerd worden
+225 Editvelden mogen niet meer tekens accepteren dan we echt kwijt kunnen, denk aan sanitize!
+230 geen emplooi meer voor snippet-error-message, daar is nu een functie voor.
+235 Database transacties toevoegen (ACID)
+240 Functie voor maxlen validaties ipv literal voor elke lengte
+245	Validatie packweight afmaken
+250 Selecteer tekst bij enter als waarde is Asktekst
+255 course is verkeerde naam: course
+260 links naar youtube
+265 documents uploaden althans links naar dropbox oid
+
+900 - Todo - GITHUB (nog even mee gewacht, kost $7 per maand)
+901 - Todo - Provider (bv Hosting2Go) nemen, 45€ per jaar
+			domeinnaam bedenken
+902 - Todo - Kamer van koophandel ---
+903 - Todo - Databasequeries preparen
+
+904 - Todo - Database veiligstellen
+D:
+cd \XAMPP\mysql\bin
+mysqldump -u root -p kjoepdemo > dump201705271905.sql
+
+905 - Todo - Testen database terugzetten
+D:
+cd \XAMPP\mysql\bin
+mysql -u root -p -h localhost kjoepkopie < dump201705271905.sql
+
+IONIC
+Udemy heeft een cursus
